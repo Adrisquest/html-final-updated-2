@@ -1,0 +1,146 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+body
+{
+    margin: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20px;
+    color:#813772;
+    line-height: 1.6;
+}
+#showcase
+{
+    background-image: url('../images/glasses.jpg');
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:0 20px;
+    
+}
+#showcase h1
+{
+    font-size: 50px;
+    
+}
+#showcase p
+ {
+    font-size: 20px;
+}
+
+
+#section-1 
+{
+    padding:200px;
+    color:#813772;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../images/grey-wave.jpg');
+    height: 100vh;
+    
+}
+#section-2 
+{
+    padding: 20px;
+    background:cadetblue ;
+    text-align: center; 
+}
+#section-3 
+{
+    display:flex;
+}
+#secion-3 .box1, #section-3 .box3
+{
+    background:#813772;
+    color: #062f4f;
+    
+}
+#section-3 .box2 
+{
+    background: #062f4f;
+}
+#section-1 h1
+{
+    font-size: 50px;
+    color: black;
+    
+}
+#section-1 p
+{
+    text-align: right;
+}
+.float-img 
+{
+    
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 100px;
+    border: solid black 2px;
+    padding: 2px;
+}
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li
+   {
+    float: left;
+  }
+  
+  li a
+   {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover
+   {
+    background:#813772;
+  }
+
+#work-id { font-size: 50px;
+    color: black;
+ 
+
+
+}
+
+#work-exp {
+
+padding:100px;
+color:#813772;
+text-align: center;
+background-size: cover;
+background-position: center;
+background-image: url('../images/grey-wave.jpg');
+height: 100vh;
+
+}
+
+#small{
+    font-size: .3em;
+}
+
+#left-line{
+    text-align: left;
+}
+#left-line-2{
+    text-align: left;
+}
